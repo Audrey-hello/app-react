@@ -31,7 +31,9 @@ function Marketplace() {
           <div className='resonance-text' data-aos="fade-right">
             <h2>  Co-création d'une marketplace </h2> <br />
             <p> Cette marketplace permet à des artisans de répondre à des appels d'offres sur des projets de maintenance.
-              L'artisan peut ainsi faire une proposition chiffrée qui sera ainsi validée par le client.</p><br />
+              L'artisan peut ainsi faire une proposition chiffrée qui sera ainsi validée par le client. 
+              J'ai notamment travaillé sur l'onboarding supply, amélioration des processus de validation, les automatisations, 
+              la création d'un outil de suivi de facturation, d'un score de référencement mettant en avant les profils, d'un dashboard de gestion backoffice et autres fonctionalités.</p><br />
 
             <div className="widgets-outils-mkt">
               <p>Bubble</p>
@@ -42,9 +44,9 @@ function Marketplace() {
             <h2> Autres </h2> <br />
 
             <p>
-              <li>Hubspot, Mixpanel, Mailjet</li>
-              <li>Design sur Figma</li>
-              <li>Documentation, gestion de projet, création d'un dashboard de gestion backoffice</li>
+              <li>Hubspot, Mixpanel, Mailjet, Looker</li>
+              <li>Design sur Figma, UX/UI</li>
+              <li>Documentation, gestion de projet, growth product management </li>
 
             </p>
             
