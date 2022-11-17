@@ -77,6 +77,65 @@ h1 {
   margin-top: 100px;
 }
 
+.social-media-footer {
+  display: inline;
+}
+
+.social-logo {
+  align-items: center;
+  vertical-align: middle;
+  width: 38px !important;
+  height: 38px !important;
+  object-fit: cover;
+  background-color: #91AFA9;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.social-logo-pint {
+  width: 38px;
+  height: 40px;
+}
+
+
+.img .social-logo img:hover {
+  opacity: 3;
+
+}
+
+.social-logo > img, svg {
+  align-items: center;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  object-fit: none;
+}
+
+.contact {
+ vertical-align: middle;
+ width: 100%;
+ justify-content: space-evenly;
+}
+.style-social {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.btn-primary{
+  background-color: #E0B46F !important;
+  margin:20px;
+  padding: 10px !important;
+  border-color: #E0B46F !important;
+  font-size: 18px !important;
+}
+
+.btn-primary:hover {
+  opacity: 0.5;
+}
+
 @media (min-width: 1024px) and (max-width: 1286px){
 
 }
