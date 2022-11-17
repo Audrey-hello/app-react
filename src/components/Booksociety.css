@@ -1,0 +1,151 @@
+
+
+.BS-gif {
+  width: 750px;
+  height: 356px;
+  margin-top: 150px;
+  filter: brightness(1.05);
+}
+
+.container-bs {
+  background-color: #fff;
+  position: sticky;
+  padding: 20px;
+}
+
+
+.bs-text{
+  width: 700Px;
+  padding: 40px;
+  text-align: justify;
+  background-color: #c58b32;
+  margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 23px;
+  color: white;
+  display: inline-block;
+}
+
+.widgets-outils-bs {
+  display: inline-flex;
+}
+.widgets-outils-bs p {
+  border: solid;
+  width: 150px;
+  text-align: center;
+  background-color: whitesmoke;
+  border-width: thin;
+  color: black;
+  border-color: black;
+  font-weight: 600;
+  height: 27Px;
+  margin-right: 8px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.content-bs {
+  display: flex;
+  margin-top: 91px;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.image-bs {
+  display: flex;
+  width: 235px;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: auto;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.bs-title  h1 {
+  font-weight: 300;
+    color: black;
+    font-size: 50px;
+    background: linear-gradient(
+180deg
+, transparent 50%, #ecca97 0);
+    width: max-content;
+    display: initial;
+
+}
+
+.bs-title{
+  font-family: 'Calistoga', cursive;
+  margin-top: 91px;
+
+}
+
+.btn--inline-bs{
+  background-color: transparent;
+  border-color: black!important;
+  color: black;
+  width: 372px;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 56px;
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  font-weight: 600 !important;
+  margin-left: 122px;
+}
+
+.btn--inline-bs:hover {
+  background: whitesmoke !important;
+  color: black !important;
+  font-size: bold !important;
+}
+
+@media (max-device-width: 480px){
+
+.content-bs {
+  display: block;
+}
+.BS-gif {
+  display: block;
+  width: 700px;
+  height: 379px;
+  margin-left: -72px
+}
+.bs-text {
+    width:550px;
+    display: block;
+    margin-left: 20px;
+}
+.widgets-outils-bs {
+    display: block;
+    margin-left: 150px;
+}
+.btn--inline-bs {
+   width: 300px;
+   margin-left: 80px;
+}
+}
+
+@media (min-device-width: 480px) and (max-width: 1024px) {
+
+
+  .content-bs {
+    display: block;
+  }
+
+  .BS-gif {
+    width: 703px;
+    height: 355px;
+    margin-top: 0px;
+}
+
+  .bs-text {
+    width: 600px;
+    margin-left: 0px;
+  }
+  .widgets-outils-bs {
+    display: block;
+    margin-left: 180px;
+}
+  .btn--inline-bs {
+    width: 300px;
+    margin-left: 90px;
+  }
+}
